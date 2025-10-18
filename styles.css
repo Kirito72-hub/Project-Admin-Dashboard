@@ -15,7 +15,7 @@ body {
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background-color: #4CAF50;
+    background-color: white;
     max-height: 20vh;
 }
 
@@ -27,14 +27,12 @@ body {
 
 .sidebar ul {
     list-style-type: none;
-    color: white;
     padding: 0;
 }
 
 .sidebar ul button {
     width: 100%;
     padding: 15px;
-    
     border-bottom: 1px solid #444;
     background: none;
     color: white;
