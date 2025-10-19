@@ -40,7 +40,9 @@ body {
 
 .sidebar ul button {
     width: 100%;
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
     background: none;
     color: var(--bg-color);
     cursor: pointer;
@@ -49,6 +51,7 @@ body {
     transition: background-color 0.4s ease;
     text-align: center;
     border: none;
+    gap: 15px;
 }
 
 .sidebar ul button:hover {
@@ -71,10 +74,10 @@ body {
 }
 
 .svgIcon {
-    width: 40px;
+    width: 25px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
 .logo .svgIcon {
-    width: 50px;
+    width: 40px;
 }
