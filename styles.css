@@ -15,7 +15,7 @@ html, body {
 
 body {
     display: grid;
-    grid-template-columns: minmax(200px, 20%);
+    grid-template-columns: minmax(200px, 15%);
     grid-template-rows: repeat(2, 1fr);
     min-height: 100vh;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 .nav-links.main{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .logo {
