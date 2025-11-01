@@ -91,6 +91,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .topSide-left {
@@ -103,6 +104,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    max-width: 20%;
 }
 
 .searchBar {
@@ -111,6 +113,9 @@ body {
     border: none;
     border-radius: 20px;
     font-size: 16px;
+    transition: box-shadow 0.3s ease;
+    box-sizing: border-box;
+    width: 30vw;
 }
 
 
