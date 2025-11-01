@@ -90,7 +90,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px;
+}
+
+.topSide-left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.topSide-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .searchBar {
@@ -99,4 +111,10 @@ body {
     border: none;
     border-radius: 20px;
     font-size: 16px;
+}
+
+
+.searchBar:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--main);
 }
