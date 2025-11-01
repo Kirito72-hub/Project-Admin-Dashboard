@@ -25,6 +25,7 @@ body {
     grid-row: 1 / 2;
     background-color: var(--bg-color);
     max-height: 20vh;
+    padding: 10px 20px;
 }
 
 .sidebar {
@@ -90,7 +91,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -104,6 +104,25 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.bottomSide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.bottomSide-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottomSide-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .searchBar {
