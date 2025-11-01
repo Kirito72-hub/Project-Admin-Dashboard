@@ -123,3 +123,9 @@ body {
     outline: none;
     box-shadow: 0 0 5px var(--main);
 }
+
+.topSide-right button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
