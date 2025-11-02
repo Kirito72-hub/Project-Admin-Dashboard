@@ -15,16 +15,17 @@ html, body {
 
 body {
     display: grid;
-    grid-template-columns: minmax(200px, 15%);
+    grid-template-columns: minmax(200px, 17%);
     grid-template-rows: repeat(2, 1fr);
     min-height: 100vh;
 }
 
 .header {
+    display: grid;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: var(--bg-color);
-    max-height: 20vh;
+    max-height: 18vh;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -116,14 +117,23 @@ body {
 
 .bottomSide-left {
     display: flex;
+    gap: 25px;
     align-items: center;
-    gap: 10px;
+}
+
+.welcomeMessage-container {
+    display: flex;
+    flex-direction: column;
+}
+.welcomeMessage-container p {
+    margin: 0;
+    font-size: 16px;
 }
 
 .bottomSide-right {
     display: flex;
-    align-items: center;
     gap: 25px;
+    align-items: center;
 }
 
 .searchBar {
