@@ -16,7 +16,7 @@ html, body {
 body {
     display: grid;
     grid-template-columns: minmax(200px, 17%);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
     min-height: 100vh;
 }
 
@@ -34,6 +34,7 @@ body {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-color: var(--main);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar ul {
@@ -59,6 +60,7 @@ body {
 
 .sidebar ul button:hover {
     background-color: var(--main-hover);
+    box-shadow: inset 5px 0 0 0 var(--accent);
 }
 
 .nav-links.main{
@@ -180,4 +182,11 @@ body {
 
 .pressButtons:hover {
     background-color: var(--main-hover);
+}
+
+.mainContainer {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 20px;
+    box-sizing: border-box;
 }
