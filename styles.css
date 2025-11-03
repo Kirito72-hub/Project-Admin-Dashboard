@@ -185,8 +185,32 @@ body {
 }
 
 .mainContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.mainContainer-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.mainContainer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 300px;
+    height: 180px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
 }
