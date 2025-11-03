@@ -212,6 +212,7 @@ body {
     padding: 20px;
     margin: 20px;
     box-shadow: inset 8px 0 0 0 var(--accent);
+    justify-items: end;
 }
 
 .card:hover {
@@ -221,5 +222,5 @@ body {
 .cardBtn {
     background: none;
     border: none;
-    cursor: pointer;    
+    cursor: pointer;
 }
