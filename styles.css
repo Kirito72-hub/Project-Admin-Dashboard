@@ -190,3 +190,15 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
+
+.mainContainer-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repear(3, 1fr);
+}
+
+.mainContainer-right {
+    display: grid;
+    padding: 20px;
+    box-sizing: border-box;
+}
