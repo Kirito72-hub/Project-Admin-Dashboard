@@ -185,9 +185,6 @@ body {
 }
 
 .mainContainer {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     padding: 20px;
@@ -197,30 +194,11 @@ body {
 .mainContainer-left {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repear(3, 1fr);
 }
 
 .mainContainer-right {
-    display: flex;
-    flex-direction: column;
-}
-
-.card {
-    background-color: var(--bg-color);
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
     padding: 20px;
-    margin: 20px;
-    box-shadow: inset 8px 0 0 0 var(--accent);
-    justify-items: end;
-}
-
-.card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 8px 0 0 0 var(--accent);
-}
-
-.cardBtn {
-    background: none;
-    border: none;
-    cursor: pointer;
+    box-sizing: border-box;
 }
