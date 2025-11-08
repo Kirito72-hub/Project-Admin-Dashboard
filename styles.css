@@ -191,11 +191,11 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     box-sizing: border-box;
-    gap: 25px;
+    gap: 10px;
 }
 
 .main-title {
-    margin: 20px;
+    margin: 35px 0px 0px 25px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -238,4 +238,23 @@ body {
 .cardBtn:hover {
     transition: transform 0.2s;
     transform: scale(1.2);
+}
+
+.trendingSection, .announceSection {
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 40px;
+    margin: 20px;
+}
+
+.trendingSection h5, .announceSection h5 {
+    font-weight: bolder;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.trendingSection p, .announceSection p {
+    font-size: 14px;
+    margin-bottom: 0px;
 }
